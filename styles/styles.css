@@ -1,0 +1,59 @@
+
+
+.banner{
+    width: 1350px;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    animation-name: banner;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.iconos{
+    width: 1200px;
+    height: 150px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.text{
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@keyframes banner{
+0%, 30%{
+    background-image: url(/img/electro.jpg);
+}
+
+35%, 65%{
+    background-image: url(/img/manos.jpg);   
+}
+70%, 100%{
+    background-image: url(/img/na.jpg);
+    }
+
+}
+
